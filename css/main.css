@@ -1,5 +1,6 @@
 html {
-  font: 100%/1.15    , serif;
+  font-size: 1rem;
+  font: Helvetica, serif;
 }
 
 @@media (min-width:60em) {
@@ -7,18 +8,45 @@ html {
 header {
   padding-bottom: 2rem;
 }
+h1 {
+  font: , serif;
+  font-weight: bold;
+  color: #949182;
+}
 
-summary {
-  padding-top: 1rem;
+h2 {
+  padding-top: 2rem;
   padding-bottom: 1rem;
   font-weight: bold;
+  color: #949182;
+}
+
+.table {
+  boarder: 1px solid #ddd;
+  width: 100%
+}
+
+details {
+  color: #949182;
 }
 
 body {
-  background-color:
+  background-color:#DBDDDD;
 }
 
+p {
+  display: block;
+}
 
+a {
+  color: #51788A;
+  background-color: #DBDDDD;
+}
+
+a:hover {
+  color: #1F556F;
+  background-color: #DBDDDD;
+}
 
 
 }
