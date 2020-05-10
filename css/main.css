@@ -1,62 +1,109 @@
 html {
   font-size: 1rem;
-  font: oswald, Helvetica, serif;
+  font:helvetica,serif;
 }
 
-@@media (min-width:60em) {
+@media (min-width:20em) {
 
 header {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+
 }
 
 h1 {
-  font: Montserrat Subrayada, serif;
+  font: Montserrat ,serif;
   font-weight: bold;
-  color: #949182;
-}
-
-.h2 {
-  font: oswald, sans-serif;
-  padding-top: 2rem;
+  color: #43446B;
+  text-align: center;
   padding-bottom: 1rem;
-  font-weight: bold;
-  color: #949182;
+  padding-top: 1rem;
+  border-bottom: 1px dashed #000;
 }
 
-.table {
-  boarder: 1px solid #ddd;
+h2 {
+  font:sans-serif;
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+  font-weight: bold;
+  color: #094B88;
+}
+
+h3 {
+  font:sans-serif;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  font-weight: bold;
+  color: #094B88;
+}
+
+ h4{
+   font: Montserrat ,serif;
+   color: #000;
+   text-align: center;
+   font-size: .75rem;
+}
+
+h5 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  border-top: 1px dashed #000;
+}
+
+h6 {
+  padding-top: 2rem;
+}
+
+h7 {
+  padding-bottom: 2rem;
+  color: #094B88;
+}
+
+table {
   width: 100%
 }
 
 details {
-  color: #949182;
+  color: #43446B;
+  font-weight: bold;
+}
+
+
+ol{
+  background-color: #white ;
 }
 
 body {
   color: #212529;
-  background-color:#d5dcde;
+  background-color:#E0E6E7;
 }
 
 p {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 a {
-  color: #51788A;
-  background-color: #d5dcde;
+  color:#860754;
 }
 
+
 a:hover {
-  color: #1F556F;
-  background-color: #d5dcde;
+  color: #1B8985;
 }
+
 
 img {
   vertical-align: middle;
   align-content: center;
-  border-style: inset;
   border-spacing: inherit;
 }
+
+img.headshot {
+  max-width: 6em;
+  vertical-align: middle;
+  border: 1px solid #eee;
+  border-radius: 60%;
+  filter: grayscale(100%);
+  margin-right: .5rem;
 
 }
